@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRABHAKAR | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">PRABHAKAR V</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a> </li>
+                <li>  <a href="#experience">Experience</a> </li>
+                <li> <a href="#projects">Projects</a></li>
+                <li>  <a href="#contact">Contact</a></li>   
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">PRABHAKAR V</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toggleMenu()"><p class="menu-nav">About</p></a> </li>
+                <li>  <a href="#experience" onclick="toggleMenu()"><p class="menu-nav">Experience</p></a> </li>
+                <li> <a href="#projects" onclick="toggleMenu()"><p class="menu-nav">Projects</p></a></li>
+                <li>  <a href="#contact" onclick="toggleMenu()"><p class="menu-nav">Contact</p></a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sec-pic-container">
+            <img src="assests\Profile-pic.jpg" alt="Prabhakar profile-pic" />
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hi, this is</p>
+            <h1 class="title">PRABHAKAR V</h1>
+            <p class="section_text_p2">Aspiring Data Scientist</p>
+            <div class="btn-container">
+                <!--button class="btn btn-color-2" onclick= "window.open('assests\PRABHAKAR_V_CV.pdf')">Download CV</button-->
+                <!--button class="btn btn-color-1" onclick= "location.href='./#contact'">Contact Info </button-->
+            </div>
+            <div id="social-container">
+                <img src="assests\linkedin.png" alt="linkedin profile" class="icon" onclick="location.href='https://linkedin.com/in/prabhakar-v'">
+                <img src="assests\github.png" alt="github profile" class="icon" onclick="location.href='https://github.com/prabhakarvenkat'">
+                <img src="assests\huggingface.png" alt="Hugging Face profile" class="icon" onclick="location.href='https://huggingface.co/PrabhakarVenkat'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="sec-pic-container">
+                <img src="assests\about-pic.JPG" alt="Profile picture" class="about-pic">
+
+            </div>
+            <div class="about-details">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="assests\experience.png" alt="Experience-icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Fresher <br/> Aspiring Data Scientist</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assests\education.png" alt="education-icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech Artificial Intelligence & Data Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        <br>
+                        A motivated Data Science fresher looking to leverage my strong programming skills in Python and R, analytical aptitude and knowledge of data visualizations to effectively analyze, interpret, and present insights
+                        from large datasets in an accurate and meaningful way. Seeking to collaborate with a leading data science and AI team to develop innovative models to detect patterns and trends for complex data-driven solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assests\arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#experience' " />
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details">
+            <div class="about-container">
+<div class="details-container">
+                    <h2 class="experience-sub-title">FrontEnd</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>PowerBI</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>jQuery</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">BackEnd</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>TensorFLow</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Sci-kit Learn<h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                            </div>
+                        </article>
+                        <!--article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Langchain</h3>
+                            </div>
+                        </article-->
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Scrapy</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assests\checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Flask</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assests\arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#projects' " />
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Checkout My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details">
+            <div class="about-container">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assests\project-1.png" alt="project 1" class="profile-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">ICR---Identifying-Age-Related-Conditions</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prabhakarvenkat/ICR---Identifying-Age-Related-Conditions'"  >Github</button>                
+                    </div>
+                    <!--p>to develop a predictive model that accurately identifies whether a person has any of three specific medical conditions. The model will be trained on measurements of various health characteristics to determine if the person has one or more of these conditions (Class 1) or none at all (Class 0). 
+                        This approach aims to streamline the process of diagnosing these conditions while maintaining patient privacy by focusing on key characteristics related to the conditions and encoding them accordingly.</p-->
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assests\project-2.png" alt="project 2" class="profile-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">1_Week_Preparation_Kit-HackerRank</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prabhakarvenkat/1_Week_Preparation_Kit-HackerRank'"  >Github</button>    
+                    </div>
+                    <!--p>It consists of 7 days of challenge in the HackerRank platform which should be solved using anyone programming language with good logics.</p-->
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assests\project-3.jpeg" alt="project 3" class="profile-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Error_Detection_In_PCB</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prabhakarvenkat/Error_Detection_In_PCB'"  >Github</button>
+                    </div>
+                    <!--p>The project aims to reduce capital and time losses incurred due to faulty or unfinished PCBs by providing an accuracy of 75.48% in fault detection. 
+                        The system utilizes various techniques, including image processing, machine learning, and in-circuit testing, to detect and address issues such as track errors, missing components, component orientation, and other manufacturing or assembly-related problems.</p-->
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assests\project-4.png" alt="project 4" class="profile-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Flask_Basic</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prabhakarvenkat/Flask_Basic'"  >Github</button>    
+                    </div>
+                    <!--p>Using flask-micro web framework, the project consists of a basic form which can be updated or deleted. And it is deployed using Heroku for free. </p-->
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assests\project-5.jpg" alt="project 5" class="profile-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Pandas_Basic</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/prabhakarvenkat/Pandas_Basic'"  >Github</button>    
+                    </div>
+                    <!--p>Pandas is a Python library used for working with data sets.
+                        It has functions for analyzing, cleaning, exploring, and manipulating data.</p-->
+                </div>
+            </div>
+        </div>
+        <img src="assests\arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='./#contact' " />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Reach out to me</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assests\email.png" alt="email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:prabhakar15v@gmail.com">prabhakar15v@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="assests\linkedin.png" alt="linkedin icon" class="icon contact-icon" />
+                <p><a href="https://linkedin.com/in/prabhakar-v">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li> <a href="#about">About</a> </li>
+                    <li>  <a href="#experience">Experience</a> </li>
+                    <li> <a href="#projects">Projects</a></li>
+                    <li>  <a href="#contact">Contact</a></li>   
+                </ul> 
+            </div>
+        </nav>
+        <p>&#169; 2024 PRABHAKAR V. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
